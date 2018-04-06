@@ -5,7 +5,7 @@
 
 name: curator
 image:
-   name: bobrik/curator
+   name: bobrik/curator:5.4.0
    tag: latest
 schedule: "30 3 * * *"
 
