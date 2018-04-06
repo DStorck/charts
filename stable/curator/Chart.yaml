@@ -1,0 +1,14 @@
+name: curator
+version: 0.0.1
+description: Curator chart for managing elasticsearch indices
+keywords:
+- logging
+- curator
+- elasticsearch
+home: https://www.elastic.co/guide/en/elasticsearch/client/curator/current/index.html
+sources:
+- https://www.elastic.co/guide/en/elasticsearch/client/curator/current/index.html
+maintainers:
+- name: Deirdre Storck
+  email: deirdre.storck@gmail.com
+engine: gotpl
