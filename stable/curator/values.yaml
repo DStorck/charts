@@ -5,8 +5,8 @@
 
 name: curator
 image:
-   name: bobrik/curator:5.4.0
-   tag: latest
+   name: bobrik/curator
+   tag: 5.4.0
 schedule: "30 3 * * *"
 
 action: delete_indices
@@ -59,3 +59,11 @@ logging:
   blacklist:
     - 'elasticsearch'
     - 'urllib3'
+
+resources:
+  limits:
+    cpu: 50m
+    memory: 200Mi
+  requests:
+    cpu: 50m
+    memory: 200Mi

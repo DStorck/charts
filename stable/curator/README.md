@@ -70,7 +70,7 @@ The following tables lists the configurable parameters of the Curator chart and 
 | Parameter                | Description                                     | Default                                 |
 | ------------------------ | ----------------------------------------------- | --------------------------------------- |
 | `name`                   | Name of the chart                               | `curator`                               |
-| `image.name`             | FQDN repository/image name                      | `bobrik/curator:5.4.0`|
+| `image.name`             | FQDN repository/image name                      | `bobrik/curator:5.4.0`                  |
 | `image.tag`              | Image tag                                       | `latest`                                |
 | `schedule`               | The cron schedule                               | `30 3 * * *`                            |
 | `action`                 | Name of the action                              | `delete_indices`                        |
@@ -78,7 +78,8 @@ The following tables lists the configurable parameters of the Curator chart and 
 | `options`                | [Options][6] of the action                      | `<see values.yaml>`                     |
 | `filters`                | [Filters][5] of the action                      | `<see values.yaml>`                     |
 | `client`                 | [Client configuration][7]                       | `<see values.yaml>`                     |
-| `logging`                | [Loging configuration][7]                       | `<see values.yaml>`                     |
+| `logging`                | [Logging configuration][7]                      | `<see values.yaml>`                     |
+| `resources`              | CPU and Memory for limits and requests          | cpu: 50m , memory: 200Mi                |
 
 
 ## References
@@ -92,5 +93,5 @@ The following tables lists the configurable parameters of the Curator chart and 
 [3]: https://www.elastic.co/guide/en/elasticsearch/client/curator/current/index.html "curator reference documentation"
 [4]: https://discuss.elastic.co/search?q=curator "curator discussion"
 [5]: https://www.elastic.co/guide/en/elasticsearch/client/curator/5.2/filters.html "curator filter documentation"
-[6]: https://www.elastic.co/guide/en/elasticsearch/client/curator/5.2/options.html "currator options documentation"
-[7]: https://www.elastic.co/guide/en/elasticsearch/client/curator/5.2/configfile.html "currator config file  documentation"
+[6]: https://www.elastic.co/guide/en/elasticsearch/client/curator/5.2/options.html "curator options documentation"
+[7]: https://www.elastic.co/guide/en/elasticsearch/client/curator/5.2/configfile.html "curator config file documentation"
