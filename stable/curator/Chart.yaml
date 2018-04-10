@@ -1,5 +1,6 @@
 name: curator
 version: 0.0.1
+appVersion: 5.4.0
 description: Curator chart for managing elasticsearch indices
 keywords:
 - logging
@@ -7,8 +8,8 @@ keywords:
 - elasticsearch
 home: https://www.elastic.co/guide/en/elasticsearch/client/curator/current/index.html
 sources:
-- https://www.elastic.co/guide/en/elasticsearch/client/curator/current/index.html
+- https://github.com/elastic/curator
 maintainers:
-- name: Deirdre Storck
+- name: dstorck
   email: deirdre.storck@gmail.com
 engine: gotpl
