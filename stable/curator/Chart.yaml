@@ -9,6 +9,7 @@ keywords:
 home: https://www.elastic.co/guide/en/elasticsearch/client/curator/current/index.html
 sources:
 - https://github.com/elastic/curator
+- https://github.com/bobrik/docker-curator 
 maintainers:
 - name: dstorck
   email: deirdre.storck@gmail.com
