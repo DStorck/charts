@@ -9,7 +9,7 @@ data:
     # not a Python "NoneType"
     actions:
       1:
-        action: {{.Values.action}}
+        action: {{ .Values.action }}
         description: >-
 {{ toYaml .Values.description | indent 10 }}
         options:
